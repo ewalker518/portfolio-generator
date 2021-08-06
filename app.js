@@ -1,4 +1,3 @@
-const inquirer = require("inquirer");
 // const fs = require('fs');
 // const generatePage = require('./src/page-template');
 
@@ -11,7 +10,6 @@ const inquirer = require("inquirer");
 // });
 
 const inquirer = require('inquirer');
-const generatePage = require('./src/page-template');
 
 const promptUser = () => {
   return inquirer.prompt([
